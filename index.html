@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki LoL - Runeterra, Itens e Campeões</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+    <header>
+        <h1>Fã Wiki: O Mundo de Runeterra & Itens</h1>
+        <p>Sua fonte de conhecimento sobre o universo de League of Legends.</p>
+    </header>
+
+    <nav id="main-nav">
+        <button class="nav-button active" data-target="runeterra-section">Runeterra (Início)</button>
+        <button class="nav-button" data-target="itens-section">Itens do Jogo</button>
+        <button class="nav-button" data-target="campeoes-section" disabled>Campeões (Em Breve)</button>
+    </nav>
+
+    <main>
+        
+        <section id="runeterra-section" class="content-section">
+            <h2>Bem-vindo a Runeterra</h2>
+            <div class="content-map">
+                <p>Runeterra é o mundo mágico e diversificado onde se passa a história de League of Legends. Um planeta de energia arcana e tecnologia, ele é dividido em vastos continentes e ilhas, cada um lar de nações e culturas únicas, como as gélidas terras de **Freljord**, a brilhante metrópole de **Piltover**, e o sombrio reino das sombras das **Ilhas das Sombras**.</p>
+                <p>Cada região possui suas próprias lendas, criaturas, e, claro, os **Campeões** que moldam o destino do mundo com seus conflitos e alianças. Mergulhe nas histórias das facções para entender as guerras, a magia e os mistérios que permeiam este planeta.</p>
+                <img src="https://noticias.maisesports.com.br/wp-content/uploads/2024/06/mapas-regioes-lol-runeterra.jpg" alt="Mapa de Runeterra mostrando suas regiões." class="mapa-imagem">
+            </div>
+
+            <hr style="margin-top: 30px; border-color: #3b4255;">
+            
+            <section id="itens-link-home" style="background: none; box-shadow: none; margin-top: 40px;">
+                <h3>Fortaleça seu Campeão: Itens do Jogo</h3>
+                <p>Os **itens** são essenciais para fortalecer seus Campeões durante as partidas. Eles concedem atributos básicos (como Ataque, Vida e Mana) e efeitos passivos ou ativos poderosos que podem virar o jogo. **Clique no ícone abaixo para explorar o catálogo completo!**</p>
+
+                <div class="interactive-image-container">
+                    <a href="#" id="itens-link-img" data-target="itens-section">
+                        <img src="https://s2-techtudo.glbimg.com/GbhkNyYlng2kxl47_IpmssyXnv4=/0x0:1127x739/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2020/x/m/2pezyeTcO6L9DoexffcA/enc37yfucaacjdi.jpg" alt="Link para a página de Itens" class="interactive-img">
+                        <div class="overlay-text">Explore o Catálogo de Itens!</div>
+                    </a>
+                </div>
+            </section>
+            <hr style="margin-top: 30px; border-color: #3b4255;">
+
+            <section id="campeoes-link" style="background: none; box-shadow: none;">
+                <h3>Descubra os Campeões</h3>
+                <p>Clique no brasão abaixo para acessar o catálogo completo de heróis, vilões e criaturas que lutam por Runeterra. *Este é apenas um link de demonstração.*</p>
+
+                <div class="interactive-image-container">
+                    <a href="#" id="campeoes-link-img">
+                        <img src="https://cdn.europosters.eu/image/1300/102252.jpg" alt="Link para a página de Campeões" class="interactive-img">
+                        <div class="overlay-text">Clique para ver todos os Campeões!</div>
+                    </a>
+                </div>
+            </section>
+        </section>
+
+        <section id="itens-section" class="content-section">
+            <div id="item-list">
+                <p>O JavaScript buscará os dados dos itens e preencherá esta área.</p>
+            </div>
+        </section>
+
+        <section id="campeoes-section" class="content-section">
+            </section>
+
+        </main>
+
+    <footer>
+        <p>&copy; 2025 Wiki LoL - Projeto de estudo e fãs.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
